@@ -46,6 +46,15 @@ header .btn a {
 header .btn:hover a {
     color:  hsl(321, 100%, 78%);
 }
+@media (max-width:769px) {
+    header {
+        height: 60px;
+        margin: 10px 30px;
+    }
+    header .logo img {
+        max-width: 100%;
+    }
+}
 .content {
     width: 1000px;
     margin: auto;
@@ -106,6 +115,14 @@ header .btn:hover a {
 .content .nums p {
     width: fit-content;
     color: #939393;
+}
+@media (max-width:769px) {
+    .content {
+        width: 100%;
+    }
+    .content .nums {
+        display: block;
+    }
 }
 .sec-top {
     width: 100%;
@@ -169,6 +186,13 @@ header .btn:hover a {
     width: 650px;
     color: hsl(213, 100%, 6%);
     font-weight: 500;
+}
+@media (max-width:769px) {
+    .sectionOne {
+        display: block;
+        background-color: #f6fbff;
+        width: 100%;
+    }
 }
 .sec-tt {
     width: 100%;
