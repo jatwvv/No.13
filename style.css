@@ -191,7 +191,21 @@ header .btn:hover a {
     .sectionOne {
         display: block;
         background-color: #f6fbff;
+        text-align: -webkit-center;
         width: 100%;
+    }
+    .sectionOne img {
+        width: 400px;
+        margin-bottom: 70px;
+    }
+    .sectionTwo {
+        display: block;
+        text-align: -webkit-center;
+        width: 100%;
+    } 
+    .sectionTwo img {
+        width: 400px;
+        margin-bottom: 70px;
     }
 }
 .sec-tt {
@@ -263,6 +277,43 @@ header .btn:hover a {
     color: hsl(0, 0%, 100%);
     transition: 0.4s;
     font-weight: 700;
+}
+@media (max-width:769px) {
+    .sectionOne {
+        display: block;
+        background-color: #f6fbff;
+        text-align: -webkit-center;
+        width: 100%;
+    }
+    .sectionOne img {
+        width: 400px;
+        margin-bottom: 70px;
+    }
+    .sectionTwo {
+        display: block;
+        text-align: -webkit-center;
+        width: 100%;
+    } 
+    .sectionTwo img {
+        width: 400px;
+        margin-bottom: 70px;
+    }
+    .sectionThree {
+        display: block;
+        text-align: -webkit-center;
+        width: 100%;
+    } 
+    .sectionThree img {
+        width: 400px;
+        margin-bottom: 70px;
+    }
+    .ready {
+        width: 100%;
+        margin: auto;
+        margin-top: 130px;
+        text-align: center;
+        padding-bottom: 150px;
+    }
 }
 .footerimg {
     width: 100%;
