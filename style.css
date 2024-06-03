@@ -46,7 +46,7 @@ header .btn a {
 header .btn:hover a {
     color:  hsl(321, 100%, 78%);
 }
-@media (max-width:769px) {
+@media (max-width:1024px) {
     header {
         height: 60px;
         margin: 10px 30px;
@@ -116,7 +116,7 @@ header .btn:hover a {
     width: fit-content;
     color: #939393;
 }
-@media (max-width:769px) {
+@media (max-width:1024px) {
     .content {
         width: 100%;
     }
@@ -167,13 +167,12 @@ header .btn:hover a {
     align-items: center;
     justify-content: center;
     padding: 120px 0;
-    gap: 100px;
 }
 .sectionTwo img {
     width: 700px;
 }
 .sectionTwo .text {
-    width: 700px;
+    width: 100%;
 }
 .sectionTwo .text h1 {
     font-family: "Poppins", sans-serif;
@@ -183,11 +182,11 @@ header .btn:hover a {
 }
 .sectionTwo .text p {
     font-size: 18px;
-    width: 650px;
+    width: 100%;
     color: hsl(213, 100%, 6%);
     font-weight: 500;
 }
-@media (max-width:769px) {
+@media (max-width:1024px) {
     .sectionOne {
         display: block;
         background-color: #f6fbff;
@@ -278,7 +277,7 @@ header .btn:hover a {
     transition: 0.4s;
     font-weight: 700;
 }
-@media (max-width:769px) {
+@media (max-width:1024px) {
     .sectionOne {
         display: block;
         background-color: #f6fbff;
@@ -294,6 +293,7 @@ header .btn:hover a {
         text-align: -webkit-center;
         width: 100%;
     } 
+    
     .sectionTwo img {
         width: 400px;
         margin-bottom: 70px;
@@ -322,6 +322,7 @@ header .btn:hover a {
 }
 .footer {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
     background-color: hsl(192, 100%, 9%);
@@ -420,4 +421,29 @@ header .btn:hover a {
     color: hsl(0, 0%, 100%);
     transition: 0.4s;
     font-weight: 700;
+}
+@media (max-width:1024px) {
+    .footer {
+        display: block;
+        padding:50px;
+    }
+    .footer .huddle {
+        padding-top: 100px;
+    }
+    .footer .form .text {
+        display: block;
+        width: 280px;
+        text-align: -webkit-right;  
+    }
+    .footer .form .text .btn {
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+@media (max-width:769px) {
+    .content p,
+    .sectionOne .text p,
+    .sectionThree .text p {
+        width: 100%;
+    }
 }
