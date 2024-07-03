@@ -4,6 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.scroller {
+    background-color: hsl(322, 100%, 66%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    z-index: 9998;
+}
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -444,6 +453,12 @@ header .btn:hover a {
     .content p,
     .sectionOne .text p,
     .sectionThree .text p {
+        width: 100%;
+        margin: 0;
+    }
+    .sectionOne .text,
+    .sectionThree .text,
+    .footer .form  {
         width: 100%;
     }
 }
